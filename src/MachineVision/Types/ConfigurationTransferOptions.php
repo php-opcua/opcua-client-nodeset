@@ -1,0 +1,18 @@
+<?php
+
+declare(strict_types=1);
+
+namespace PhpOpcua\Nodeset\MachineVision\Types;
+
+/**
+ * DTO for the ConfigurationTransferOptions structured data type.
+ *
+ * @generated
+ */
+readonly class ConfigurationTransferOptions
+{
+    public function __construct(
+        public mixed $InternalId,
+    ) {
+    }
+}

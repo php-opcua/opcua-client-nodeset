@@ -1,0 +1,40 @@
+{
+  "name": "php-opcua/opcua-client-nodeset",
+  "description": "Pre-generated PHP classes from OPC Foundation UA-Nodeset companion specifications for use with php-opcua/opcua-client",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "opcua",
+    "opc-ua",
+    "cli",
+    "php",
+    "php-opcua",
+    "nodeset",
+    "nodeset2",
+    "plc",
+    "scada",
+    "industrial",
+    "iot",
+    "companion-specification"
+  ],
+  "homepage": "https://github.com/php-opcua/opcua-client-nodeset",
+  "support": {
+    "issues": "https://github.com/php-opcua/opcua-client-nodeset/issues",
+    "source": "https://github.com/php-opcua/opcua-client-nodeset"
+  },
+  "authors": [
+    {
+      "name": "Gianfrancesco Aurecchia",
+      "email": "gianfri.aur@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "php-opcua/opcua-cli": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhpOpcua\\Nodeset\\": "src/"
+    }
+  }
+}

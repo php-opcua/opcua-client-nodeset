@@ -1,0 +1,4 @@
+/vendor/
+/UA-Nodeset/
+composer.lock
+.php-cs-fixer.cache
