@@ -21,6 +21,10 @@ Pre-generated PHP classes from the [OPC Foundation UA-Nodeset](https://github.co
 
 **807 PHP files** across **51 companion specifications** — NodeId constants, PHP enums, typed DTOs, binary codecs, and registrars with automatic dependency resolution. Zero configuration, just `composer require` and load.
 
+## Versioning
+
+This library follows the versioning of [`php-opcua/opcua-client`](https://github.com/php-opcua/opcua-client). Major and minor versions are kept in sync to ensure compatibility.
+
 ## Installation
 
 ```bash
