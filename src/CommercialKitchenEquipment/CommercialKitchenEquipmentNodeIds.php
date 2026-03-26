@@ -1604,5 +1604,4 @@ class CommercialKitchenEquipmentNodeIds
     public const TrayModeEnumeration = 'ns=1;i=3019';
 
     public const TrayTypeEnumeration = 'ns=1;i=3020';
-
 }

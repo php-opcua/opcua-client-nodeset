@@ -2396,5 +2396,4 @@ class PowertrainNodeIds
     public const PtAssetVibrationSensorType = 'ns=1;i=15136';
 
     public const HasPtAttributes = 'ns=1;i=4004';
-
 }

@@ -252,5 +252,4 @@ class CuttingToolNodeIds
     public const ToolManufacturingMachineType = 'ns=1;i=1025';
 
     public const FileFormatDataType_3 = 'ns=1;i=3003';
-
 }

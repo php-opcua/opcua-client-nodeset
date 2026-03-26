@@ -494,5 +494,4 @@ class PackMLNodeIds
     public const PackMLProductDataType_3 = 'ns=1;i=18';
 
     public const PackMLRemoteInterfaceDataType_3 = 'ns=1;i=19';
-
 }

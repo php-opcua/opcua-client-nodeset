@@ -190,5 +190,4 @@ class WotConNodeIds
     public const WoTAssetFileType = 'ns=1;i=110';
 
     public const HasWoTComponent = 'ns=1;i=142';
-
 }

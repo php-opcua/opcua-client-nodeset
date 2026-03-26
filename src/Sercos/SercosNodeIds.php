@@ -80,5 +80,4 @@ class SercosNodeIds
     public const FunctionGroupSet_2 = 'ns=1;i=6079';
 
     public const SercosParameterType = 'ns=1;i=2001';
-
 }

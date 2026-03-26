@@ -3638,5 +3638,4 @@ class WoodworkingNodeIds
     public const WwMessageArgumentDataType_3 = 'ns=1;i=3003';
 
     public const WwMessageArgumentValueDataType_3 = 'ns=1;i=3002';
-
 }

@@ -188,5 +188,4 @@ class SafetyNodeIds
     public const RequestSPDUDataType = 'ns=1;i=3003';
 
     public const ResponseSPDUDataType = 'ns=1;i=3004';
-
 }

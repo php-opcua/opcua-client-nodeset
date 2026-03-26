@@ -698,5 +698,4 @@ class I4AASNodeIds
     public const AASQualifierDataType = 'ns=1;i=3013';
 
     public const AASKeyDataType_3 = 'ns=1;i=3011';
-
 }

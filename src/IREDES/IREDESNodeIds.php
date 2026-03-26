@@ -766,5 +766,4 @@ class IREDESNodeIds
     public const IRLengthDataType = 'ns=1;i=3003';
 
     public const JobAssignmentTimeDataType = 'ns=1;i=3004';
-
 }

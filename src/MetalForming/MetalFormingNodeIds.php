@@ -316,5 +316,4 @@ class MetalFormingNodeIds
     public const CyclicPartInformationDataType = 'ns=1;i=3004';
 
     public const CyclicProcessValueDataType = 'ns=1;i=3003';
-
 }

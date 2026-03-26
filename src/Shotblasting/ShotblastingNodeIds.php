@@ -420,5 +420,4 @@ class ShotblastingNodeIds
     public const ShotBlastMachineType = 'ns=1;i=1003';
 
     public const ShotBlastMediaType = 'ns=1;i=1006';
-
 }

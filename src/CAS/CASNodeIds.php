@@ -10018,5 +10018,4 @@ class CASNodeIds
     public const FilterClassDataType_3 = 'ns=1;i=3007';
 
     public const SensorTechnologyOptionSet_3 = 'ns=1;i=3010';
-
 }

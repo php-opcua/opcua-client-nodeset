@@ -840,5 +840,4 @@ class Fdi7NodeIds
     public const EddDataTypeEnum = 'ns=1;i=2048';
 
     public const EddDataTypeInfo_3 = 'ns=1;i=2050';
-
 }

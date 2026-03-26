@@ -44,7 +44,7 @@ class AMLLibrariesRegistrar implements GeneratedTypeRegistrar
     public function dependencyRegistrars(): array
     {
         return [
-            new \PhpOpcua\Nodeset\AML\AMLRegistrar(),
+            new AMLRegistrar(),
         ];
     }
 }

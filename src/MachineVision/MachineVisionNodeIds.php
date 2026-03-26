@@ -1556,5 +1556,4 @@ class MachineVisionNodeIds
     public const ResultTransferOptions_3 = 'ns=1;i=3022';
 
     public const SystemStateDescriptionDataType_3 = 'ns=1;i=3024';
-
 }

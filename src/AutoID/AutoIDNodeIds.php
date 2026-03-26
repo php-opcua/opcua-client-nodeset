@@ -582,5 +582,4 @@ class AutoIDNodeIds
     public const ScanData_3 = 'ns=1;i=3020';
 
     public const WGS84Coordinate_3 = 'ns=1;i=3027';
-
 }

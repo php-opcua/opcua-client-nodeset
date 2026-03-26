@@ -552,5 +552,4 @@ class IRDINodeIds
     public const StaticStringNodeIdPattern = 'ns=1;i=1007';
 
     public const DefaultRolePermissions = 'ns=1;i=1008';
-
 }

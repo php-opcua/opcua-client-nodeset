@@ -370,5 +370,4 @@ class MachineryNodeIds
     public const MachineryItemState_StateMachineType = 'ns=1;i=1002';
 
     public const MachineryOperationModeStateMachineType = 'ns=1;i=1008';
-
 }

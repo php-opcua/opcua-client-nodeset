@@ -1188,5 +1188,4 @@ class MachineToolNodeIds
     public const ToolLocked = 'ns=1;i=66';
 
     public const ToolManagement = 'ns=1;i=69';
-
 }

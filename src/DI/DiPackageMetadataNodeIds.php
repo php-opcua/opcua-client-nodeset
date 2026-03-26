@@ -114,5 +114,4 @@ class DiPackageMetadataNodeIds
     public const PackageTarget_3 = 'ns=1;i=12';
 
     public const FxPathElement_3 = 'ns=1;i=13';
-
 }

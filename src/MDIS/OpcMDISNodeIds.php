@@ -722,5 +722,4 @@ class OpcMDISNodeIds
     public const ValvePositionEnum = 'ns=1;i=703';
 
     public const MDISVersionDataType_3 = 'ns=1;i=1289';
-
 }

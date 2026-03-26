@@ -118,5 +118,4 @@ class RSLNodeIds
     public const SpatialLocationType = 'ns=1;i=2003';
 
     public const CartesianFrameAngleOrientationType = 'ns=1;i=2004';
-
 }

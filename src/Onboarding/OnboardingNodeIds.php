@@ -628,5 +628,4 @@ class OnboardingNodeIds
     public const TicketListType_3 = 'ns=1;i=1168';
 
     public const ManagerDescription_3 = 'ns=1;i=1495';
-
 }

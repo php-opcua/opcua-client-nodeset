@@ -1956,5 +1956,4 @@ class DEXPINodeIds
     public const LocationClassification = 'ns=1;i=1054';
 
     public const PortStatusClassification = 'ns=1;i=1056';
-
 }

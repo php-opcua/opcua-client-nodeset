@@ -836,5 +836,4 @@ class ECMNodeIds
     public const MeasurementPeriodDataType_3 = 'ns=1;i=3007';
 
     public const StandbyModeTransitionDataType_3 = 'ns=1;i=3002';
-
 }

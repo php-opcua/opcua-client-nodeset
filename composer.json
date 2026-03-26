@@ -1,26 +1,17 @@
 {
   "name": "php-opcua/opcua-client-nodeset",
   "description": "Pre-generated PHP classes from OPC Foundation UA-Nodeset companion specifications for use with php-opcua/opcua-client",
-  "type": "library",
-  "license": "MIT",
-  "keywords": [
-    "opcua",
-    "opc-ua",
-    "cli",
-    "php",
-    "php-opcua",
-    "nodeset",
-    "nodeset2",
-    "plc",
-    "scada",
-    "industrial",
-    "iot",
-    "companion-specification"
-  ],
   "homepage": "https://github.com/php-opcua/opcua-client-nodeset",
   "support": {
     "issues": "https://github.com/php-opcua/opcua-client-nodeset/issues",
     "source": "https://github.com/php-opcua/opcua-client-nodeset"
+  },
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "PhpOpcua\\Nodeset\\": "src/"
+    }
   },
   "authors": [
     {
@@ -28,13 +19,36 @@
       "email": "gianfri.aur@gmail.com"
     }
   ],
+  "keywords": [
+    "opcua",
+    "opc-ua",
+    "opc ua",
+    "php-opcua",
+    "nodeset",
+    "nodeset2",
+    "companion-specification",
+    "industrial",
+    "iot",
+    "iiot",
+    "plc",
+    "scada",
+    "automation",
+    "industry-4.0"
+  ],
   "require": {
-    "php": ">=8.2",
-    "php-opcua/opcua-cli": "@dev"
+    "php": "^8.2",
+    "php-opcua/opcua-client": "@dev"
   },
-  "autoload": {
-    "psr-4": {
-      "PhpOpcua\\Nodeset\\": "src/"
-    }
+  "require-dev": {
+    "php-opcua/opcua-cli": "@dev",
+    "friendsofphp/php-cs-fixer": "^3.0"
+  },
+  "scripts": {
+    "format": "php-cs-fixer fix --config=.php-cs-fixer.php --allow-risky=yes",
+    "format:check": "php-cs-fixer fix --config=.php-cs-fixer.php --allow-risky=yes --dry-run --diff",
+    "generate": "php generate.php"
+  },
+  "config": {
+    "allow-plugins": {}
   }
 }

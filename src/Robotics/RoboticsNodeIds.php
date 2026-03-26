@@ -1072,5 +1072,4 @@ class RoboticsNodeIds
     public const MotionDeviceCategoryEnumeration = 'ns=3;i=18193';
 
     public const OperationalModeEnumeration = 'ns=3;i=3006';
-
 }

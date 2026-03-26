@@ -744,5 +744,4 @@ class PnNodeIds
     public const PnDeviceDiagnosisDataType_3 = 'ns=1;i=3019';
 
     public const PnIM5DataType_3 = 'ns=1;i=3020';
-
 }

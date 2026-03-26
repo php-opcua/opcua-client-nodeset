@@ -324,5 +324,4 @@ class FDTNodeSetNodeIds
     public const FdtDeviceClassificationType_3 = 'ns=1;i=3011';
 
     public const SemanticInfoType_3 = 'ns=1;i=3014';
-
 }

@@ -2694,5 +2694,4 @@ class ScalesNodeIds
     public const RecipeTargetValueType_3 = 'ns=1;i=58';
 
     public const RecipeThresholdType_3 = 'ns=1;i=57';
-
 }

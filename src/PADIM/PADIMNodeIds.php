@@ -1584,5 +1584,4 @@ class PADIMNodeIds
     public const PatDictionaryEnum = 'ns=3;i=1276';
 
     public const ChemicalSubstanceDataType = 'ns=3;i=1275';
-
 }

@@ -780,5 +780,4 @@ class GdsNodeIds
     public const AccessTokenIssuedAuditEventType = 'ns=1;i=975';
 
     public const ApplicationRecordDataType_3 = 'ns=1;i=1';
-
 }

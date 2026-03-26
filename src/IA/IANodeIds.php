@@ -252,5 +252,4 @@ class IANodeIds
     public const StacklightOperationMode = 'ns=1;i=3002';
 
     public const RGBWDataType_3 = 'ns=1;i=3007';
-
 }

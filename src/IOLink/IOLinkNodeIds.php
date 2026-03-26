@@ -468,5 +468,4 @@ class IOLinkNodeIds
     public const HasParameterMenu = 'ns=1;i=4003';
 
     public const EncodingEnum = 'ns=1;i=3000';
-
 }

@@ -896,5 +896,4 @@ class DiNodeIds
     public const SoftwareVersionFileType = 'ns=1;i=331';
 
     public const UpdateBehavior_2 = 'ns=1;i=333';
-
 }

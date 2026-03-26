@@ -140,5 +140,4 @@ class GPOSNodeIds
     public const GlobalLocationDataType_3 = 'ns=1;i=3004';
 
     public const GroundControlPointDataType_3 = 'ns=1;i=3005';
-
 }

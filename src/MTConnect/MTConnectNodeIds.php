@@ -1160,5 +1160,4 @@ class MTConnectNodeIds
     public const RotaryModeDataType_2 = 'ns=1;i=2211';
 
     public const YesNoDataType_2 = 'ns=1;i=2206';
-
 }

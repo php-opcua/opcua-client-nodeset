@@ -1306,5 +1306,4 @@ class LADSNodeIds
     public const SampleInfoType_3 = 'ns=4;i=3002';
 
     public const MaintenanceTaskResultEnum = 'ns=4;i=3000';
-
 }

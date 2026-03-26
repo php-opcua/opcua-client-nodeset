@@ -700,5 +700,4 @@ class AMLLibrariesNodeIds
     public const OverheadConveyor = 'ns=2;i=332';
 
     public const WarningEquipment = 'ns=2;i=335';
-
 }

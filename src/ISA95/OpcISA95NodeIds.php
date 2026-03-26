@@ -778,5 +778,4 @@ class OpcISA95NodeIds
     public const ISA95TestResultDataType_3 = 'ns=1;i=4873';
 
     public const ISA95AssetAssignmentDataType_3 = 'ns=1;i=4956';
-
 }

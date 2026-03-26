@@ -50,5 +50,4 @@ class CSPPlusForMachineNodeIds
     public const CsppMachineType = 'ns=1;i=1001';
 
     public const CsppAnalogItemType = 'ns=1;i=2001';
-
 }

@@ -2004,5 +2004,4 @@ class BACnetNodeIds
     public const BACnetSpecialEventPeriod_3 = 'ns=1;i=3055';
 
     public const BACnetTimeStamp_3 = 'ns=1;i=3056';
-
 }

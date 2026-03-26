@@ -2216,5 +2216,4 @@ class CNCNodeSetNodeIds
     public const CncSpindleTurnDirection = 'ns=1;i=3001';
 
     public const CncPositionDataType_3 = 'ns=1;i=3007';
-
 }

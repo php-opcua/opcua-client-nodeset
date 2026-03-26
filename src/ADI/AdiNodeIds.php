@@ -1380,5 +1380,4 @@ class AdiNodeIds
     public const AcquisitionResultStatusEnumeration = 'ns=1;i=3003';
 
     public const AlarmStateEnumeration = 'ns=1;i=3009';
-
 }

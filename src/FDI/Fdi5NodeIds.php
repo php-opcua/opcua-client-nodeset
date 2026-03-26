@@ -234,5 +234,4 @@ class Fdi5NodeIds
     public const TransferIncident_3 = 'ns=1;i=43';
 
     public const ApplyResult_3 = 'ns=1;i=44';
-
 }

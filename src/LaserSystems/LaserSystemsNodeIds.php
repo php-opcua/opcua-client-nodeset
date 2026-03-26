@@ -584,5 +584,4 @@ class LaserSystemsNodeIds
     public const RecipeSettingsAndOverviewType = 'ns=1;i=1007';
 
     public const LaserSystemState_StateMachineType = 'ns=1;i=1009';
-
 }

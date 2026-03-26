@@ -128,5 +128,4 @@ class WeihenstephanNodeIds
     public const WSOperatingModeEnumerationType = 'ns=4;i=3000';
 
     public const WSProgramEnumerationType = 'ns=4;i=3001';
-
 }

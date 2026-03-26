@@ -66,5 +66,4 @@ class AMLBaseTypesNodeIds
     public const HasAMLRoleReference = 'ns=1;i=4001';
 
     public const HasAMLInternalLink = 'ns=1;i=4002';
-
 }

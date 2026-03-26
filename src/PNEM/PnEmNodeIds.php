@@ -446,5 +446,4 @@ class PnEmNodeIds
     public const PeVersionDataType_3 = 'ns=1;i=3004';
 
     public const StandbyModeTransitionDataType_3 = 'ns=1;i=3002';
-
 }

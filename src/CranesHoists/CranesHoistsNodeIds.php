@@ -188,5 +188,4 @@ class CranesHoistsNodeIds
     public const ProtectiveFunctionEnum = 'ns=4;i=3002';
 
     public const CraneMotionDeviceCategoryEnum = 'ns=4;i=3003';
-
 }

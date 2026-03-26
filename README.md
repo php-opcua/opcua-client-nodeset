@@ -1,4 +1,21 @@
-# OPC UA PHP Client — NodeSet Types
+<h1 align="center"><strong>OPC UA NodeSet Types</strong></h1>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/logo-light.svg">
+    <img alt="OPC UA NodeSet Types" src="assets/logo-light.svg" width="435">
+  </picture>
+</div>
+
+<p align="center">
+  <a href="https://packagist.org/packages/php-opcua/opcua-client-nodeset"><img src="https://img.shields.io/packagist/v/php-opcua/opcua-client-nodeset?style=flat-square&label=packagist" alt="Latest Version"></a>
+  <!-- <a href="https://packagist.org/packages/php-opcua/opcua-client-nodeset"><img src="https://img.shields.io/packagist/dt/php-opcua/opcua-client-nodeset?style=flat-square" alt="Total Downloads"></a> -->
+  <a href="https://packagist.org/packages/php-opcua/opcua-client-nodeset"><img src="https://img.shields.io/packagist/php-v/php-opcua/opcua-client-nodeset?style=flat-square" alt="PHP Version"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/php-opcua/opcua-client-nodeset?style=flat-square" alt="License"></a>
+</p>
+
+---
 
 Pre-generated PHP classes from the [OPC Foundation UA-Nodeset](https://github.com/OPCFoundation/UA-Nodeset) companion specifications, for use with [`php-opcua/opcua-client`](https://github.com/php-opcua/opcua-client).
 
@@ -186,7 +203,7 @@ Loading generated types is completely opt-in. Without `loadGeneratedTypes()`, ev
 To regenerate from the latest UA-Nodeset sources:
 
 ```bash
-./generate.sh
+php ./generate.php
 ```
 
 The script clones the [OPC Foundation UA-Nodeset](https://github.com/OPCFoundation/UA-Nodeset) repository (or uses a local copy if already present), generates PHP classes for each specification using [`opcua-cli generate:nodeset`](https://github.com/php-opcua/opcua-cli), and cleans up invalid dependency references.
@@ -194,7 +211,7 @@ The script clones the [OPC Foundation UA-Nodeset](https://github.com/OPCFoundati
 Pass a custom path to use an existing clone:
 
 ```bash
-./generate.sh /path/to/UA-Nodeset
+php ./generate.php /path/to/UA-Nodeset
 ```
 
 ## Ecosystem

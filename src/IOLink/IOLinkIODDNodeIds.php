@@ -26,5 +26,4 @@ class IOLinkIODDNodeIds
     public const StaticNumericNodeIdRange = 'ns=1;i=6006';
 
     public const StaticStringNodeIdPattern = 'ns=1;i=6007';
-
 }

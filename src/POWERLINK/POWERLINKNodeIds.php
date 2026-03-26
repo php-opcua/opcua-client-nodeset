@@ -6626,5 +6626,4 @@ class POWERLINKNodeIds
     public const PowerlinkIpAddressDataType_3 = 'ns=1;i=29';
 
     public const PowerlinkPDOMappingEntryDataType_3 = 'ns=1;i=30';
-
 }
