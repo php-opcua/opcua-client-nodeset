@@ -1,5 +1,10 @@
 # Roadmap
 
+## v4.1.0 - 2026-04-13
+
+- [x] Bumped dependencies to `^4.1` for compatibility with `opcua-client` v4.1.0 (ECC security policies)
+- [x] No regeneration needed — pre-generated types are unaffected by security layer changes
+
 ## v4.0.0 - 2026-03-29
 
 ### Features

@@ -31,7 +31,7 @@ This library follows the versioning of [`php-opcua/opcua-client`](https://github
 composer require php-opcua/opcua-client-nodeset
 ```
 
-Requires `php-opcua/opcua-cli` ^4.0.
+Requires `php-opcua/opcua-cli` ^4.1.
 
 ## Quick Start
 
@@ -222,12 +222,12 @@ php ./generate.php /path/to/UA-Nodeset
 
 | Package | Description |
 |---------|-------------|
-| [opcua-client](https://github.com/php-opcua/opcua-client) | Pure PHP OPC UA client — binary protocol, 6 security policies, browse/read/write/subscribe/history |
+| [opcua-client](https://github.com/php-opcua/opcua-client) | Pure PHP OPC UA client — binary protocol, 10 security policies (RSA + ECC), browse/read/write/subscribe/history |
 | [opcua-cli](https://github.com/php-opcua/opcua-cli) | CLI tool — browse, read, write, watch, discover endpoints, manage certificates, generate code from NodeSet2.xml |
 | [opcua-client-nodeset](https://github.com/php-opcua/opcua-client-nodeset) | Pre-generated PHP types for 51 OPC Foundation companion specifications (this package) |
 | [opcua-session-manager](https://github.com/php-opcua/opcua-session-manager) | Daemon-based session persistence across PHP requests |
 | [laravel-opcua](https://github.com/php-opcua/laravel-opcua) | Laravel integration — service provider, facade, config |
-| [opcua-test-suite](https://github.com/php-opcua/opcua-test-suite) | Docker-based OPC UA test servers for integration testing |
+| [uanetstandard-test-suite](https://github.com/php-opcua/uanetstandard-test-suite) | Docker-based OPC UA test servers (UA-.NETStandard) for integration testing |
 
 ## License
 

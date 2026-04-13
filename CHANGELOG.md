@@ -1,5 +1,12 @@
 # Changelog
 
+## [v4.1.0] - 2026-04-13
+
+### Changed
+
+- Bumped minimum `php-opcua/opcua-client` dependency from `^4.0` to `^4.1` and `php-opcua/opcua-cli` dev dependency from `^4.0` to `^4.1` to align with the ECC security policies (`ECC_nistP256`, `ECC_nistP384`, `ECC_brainpoolP256r1`, `ECC_brainpoolP384r1`) introduced in `opcua-client` v4.1.0. No code changes or regeneration required — this package contains only pre-generated types that are unaffected by security layer changes.
+- Updated ecosystem table in README to reference `uanetstandard-test-suite` instead of `opcua-test-suite`.
+
 ## [v4.0.0] - 2026-03-29
 
 ### Added
