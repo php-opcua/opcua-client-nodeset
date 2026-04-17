@@ -1,5 +1,11 @@
 # Roadmap
 
+## v4.2.0 - 2026-04-17
+
+- [x] Bumped `php-opcua/opcua-client` to `^4.2.0` and `php-opcua/opcua-cli` (dev) to `^4.2.0`
+- [x] Verified compatibility with the new Kernel + ServiceModule architecture — the public API consumed by generated registrars and codecs (`Repository\ExtensionObjectRepository`, `Repository\GeneratedTypeRegistrar`, `Encoding\{BinaryDecoder, BinaryEncoder, ExtensionObjectCodec}`) is untouched by the v4.2.0 refactor
+- [x] No regeneration required — all 807 generated files pass `composer format:check` unchanged, smoke test of the Robotics registrar confirms codec + enum loading works end-to-end against v4.2.0
+
 ## v4.1.0 - 2026-04-13
 
 - [x] Bumped dependencies to `^4.1` for compatibility with `opcua-client` v4.1.0 (ECC security policies)

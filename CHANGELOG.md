@@ -1,5 +1,12 @@
 # Changelog
 
+## [v4.2.0] - 2026-04-17
+
+### Changed
+
+- Bumped minimum `php-opcua/opcua-client` dependency from `^4.1` to `^4.2.0` and `php-opcua/opcua-cli` dev dependency from `^4.1` to `^4.2.0` to align with the Kernel + ServiceModule architecture introduced in `opcua-client` v4.2.0. No code changes or regeneration required — this package contains only pre-generated types, and the public API surface it consumes (`PhpOpcua\Client\Repository\ExtensionObjectRepository`, `PhpOpcua\Client\Repository\GeneratedTypeRegistrar`, `PhpOpcua\Client\Encoding\BinaryDecoder`, `PhpOpcua\Client\Encoding\BinaryEncoder`, `PhpOpcua\Client\Encoding\ExtensionObjectCodec`) is unchanged by the v4.2.0 refactor.
+- Verified end-to-end compatibility against v4.2.0: `composer format:check` passes on all 807 generated files, and a smoke load of the Robotics registrar (`registerCodecs()` + `getEnumMappings()`) returns the expected 4 enum mappings.
+
 ## [v4.1.0] - 2026-04-13
 
 ### Changed

@@ -37,10 +37,10 @@
   ],
   "require": {
     "php": "^8.2",
-    "php-opcua/opcua-client": "^4.1"
+    "php-opcua/opcua-client": "^4.2.0"
   },
   "require-dev": {
-    "php-opcua/opcua-cli": "^4.1",
+    "php-opcua/opcua-cli": "^4.2.0",
     "friendsofphp/php-cs-fixer": "^3.0"
   },
   "scripts": {
