@@ -1,0 +1,26 @@
+# Documentation Index
+
+- Getting started
+  - [Overview](./overview.md)
+  - [Installation](./getting-started/installation.md)
+  - [Quick start](./getting-started/quick-start.md)
+  - [What gets generated](./getting-started/what-gets-generated.md)
+- Concepts
+  - [NodeId constants](./concepts/node-id-constants.md)
+  - [Enums and auto-cast](./concepts/enums-and-auto-cast.md)
+  - [Typed DTOs](./concepts/typed-dtos.md)
+  - [Codecs and registrars](./concepts/codecs-and-registrars.md)
+- Usage
+  - [Loading registrars](./usage/loading-registrars.md)
+  - [Dependency resolution](./usage/dependency-resolution.md)
+  - [Reading structured data](./usage/reading-structured-data.md)
+- Regeneration
+  - [Overview](./regeneration/overview.md)
+  - [Troubleshooting](./regeneration/troubleshooting.md)
+- Reference
+  - [Specifications](./reference/specifications.md)
+  - [Registrar API](./reference/registrar-api.md)
+  - [Versioning](./reference/versioning.md)
+- Recipes
+  - [Robotics walkthrough](./recipes/robotics-walkthrough.md)
+  - [Extending a registrar](./recipes/extending-a-registrar.md)

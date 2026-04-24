@@ -1,5 +1,12 @@
 # Changelog
 
+## [v4.3.0] - 2026-04-24
+
+### Changed
+
+- Bumped `php-opcua/opcua-client` from `^4.2.0` to `^4.3.0` and `php-opcua/opcua-cli` (dev) to `^4.3.0`.
+- Regenerated all 807 files with `opcua-cli` v4.3.0 — output unchanged.
+
 ## [v4.2.0] - 2026-04-17
 
 ### Changed

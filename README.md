@@ -240,4 +240,4 @@ The original NodeSet2.xml files are provided by the OPC Foundation under their l
 - [opcua-client](https://github.com/php-opcua/opcua-client) — the OPC UA client library
 - [opcua-cli](https://github.com/php-opcua/opcua-cli) — CLI tool with `generate:nodeset` command
 - [OPC Foundation UA-Nodeset](https://github.com/OPCFoundation/UA-Nodeset) — source companion specifications
-- [Code Generation Guide](https://github.com/php-opcua/opcua-cli/blob/master/doc/03-code-generation.md) — how the generation works
+- [Code Generation Guide](https://github.com/php-opcua/opcua-cli/blob/master/docs/code-generation/generate-from-xml.md) — how the generation works

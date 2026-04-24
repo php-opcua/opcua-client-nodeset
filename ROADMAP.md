@@ -1,5 +1,10 @@
 # Roadmap
 
+## v4.3.0 - 2026-04-24
+
+- [x] Bumped `php-opcua/opcua-client` and `php-opcua/opcua-cli` (dev) to `^4.3.0`.
+- [x] Regenerated `src/` with `opcua-cli` v4.3.0 — output unchanged.
+
 ## v4.2.0 - 2026-04-17
 
 - [x] Bumped `php-opcua/opcua-client` to `^4.2.0` and `php-opcua/opcua-cli` (dev) to `^4.2.0`
